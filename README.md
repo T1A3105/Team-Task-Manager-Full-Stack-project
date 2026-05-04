@@ -1,111 +1,124 @@
-📌 Team Task Manager (Full Stack Project)
-🚀 Project Overview
+# 📌 Team Task Manager (Full Stack Project)
 
-The Team Task Manager is a full-stack web application designed to help teams efficiently manage projects and tasks. It allows users to create projects, assign tasks, track progress, and manage workflows with role-based access (Admin & Member).
+## 🚀 Overview
+The **Team Task Manager** is a full-stack web application designed to help teams efficiently manage projects and tasks. It enables users to create projects, assign tasks, track progress, and collaborate effectively with role-based access (Admin and Member).
 
-This project demonstrates full-stack development using frontend + backend integration with database support.
+---
 
-✨ Features
+## ✨ Features
 
-🔐 Authentication
-User Signup & Login
-Secure password hashing
-Session-based access control
+### 🔐 Authentication
+- User Signup & Login
+- Secure password hashing
+- Session-based authentication
 
-👥 Role-Based Access
-Admin: Create projects, assign tasks, manage team
-Member: View and update assigned tasks
+### 👥 Role-Based Access
+- **Admin**
+  - Create and manage projects
+  - Assign tasks to team members
+- **Member**
+  - View assigned tasks
+  - Update task status
 
-📁 Project Management
-Create multiple projects
-Assign tasks to team members
-Track project progress
+### 📁 Project Management
+- Create multiple projects
+- Assign tasks under each project
+- Track project progress
 
-✅ Task Management
-Create tasks with status (Pending / In Progress / Completed)
-Update task status
-View assigned tasks dashboard
+### ✅ Task Management
+- Create tasks with status tracking (Pending / In Progress / Completed)
+- Update task status
+- View assigned tasks in dashboard
 
-📊 Dashboard
-Overview of tasks
-Status tracking
-Project-wise task grouping
+### 📊 Dashboard
+- Overview of all tasks
+- Status tracking system
+- Organized project-wise task view
 
-🛠️ Tech Stack
-Frontend:
-HTML
-CSS
-JavaScript
-Backend:
-Python / Flask (or Node.js if used)
-REST APIs
-Database:
-SQLite / MySQL (based on your setup)
-Tools:
-Git & GitHub
-VS Code
+---
 
-📁 Project Structure
+## 🛠️ Tech Stack
 
-team-task-manager/
+**Frontend:**
+- HTML
+- CSS
+- JavaScript
+
+**Backend:**
+- Python (Flask)
+
+**Database:**
+- SQLite / MySQL
+
+**Tools:**
+- Git & GitHub
+- VS Code
+
+---
+
+## 📁 Project Structure
 │
 ├── backend/
-│   ├── routes/
-│   ├── models/
-│   ├── app.py
-│   └── database.db
+│ ├── routes/ # API routes (auth, tasks, projects)
+│ ├── models/ # Database models
+│ ├── static/ # Static backend files (if any)
+│ ├── app.py # Main backend entry point
+│ ├── config.py # Configuration settings
+│ ├── requirements.txt # Python dependencies
+│ └── database.db # SQLite database
 │
 ├── frontend/
-│   ├── index.html
-│   ├── dashboard.html
-│   ├── style.css
-│   └── script.js
+│ ├── index.html # Login page
+│ ├── dashboard.html # Main dashboard
+│ ├── style.css # Styling file
+│ ├── script.js # Frontend logic
+│ └── assets/ # Images/icons (if any)
 │
-└── README.md
+├── README.md # Project documentation
+└── .gitignore # Ignored files
 
-⚙️ Installation & Setup
 
-1. Clone the repository
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/T1A3105/Team-Task-Manager-Full-Stack-project.git
-2. Navigate to project folder
+
+### 2️⃣ Navigate to project folder
 cd team-task-manager
-3. Setup backend
+
+### 3️⃣ Setup backend
 cd backend
 pip install -r requirements.txt
 python app.py
-4. Run frontend
 
-Open:
-
+### 4️⃣ Run frontend
+open:
 frontend/index.html
-▶️ How to Run
-Start backend server
-Open frontend in browser
-Register/Login
-Create projects and assign tasks
+
+▶️ How to Run Project
+1.Start backend server
+2.Open frontend in browser
+3.Register / Login
+4.Create projects and assign tasks
+5.Track progress from dashboard
 
 🔮 Future Enhancements
 
 🔔 Notifications for task updates
-💳 Cloud deployment (Render/Railway)
-📱 Mobile responsive UI
+📱 Responsive UI improvements
+🌐 Cloud deployment (Render / Railway)
 📊 Analytics dashboard
-💬 Team chat system
+💬 Team chat feature
 📅 Deadline reminders
-👨‍💻 Author
 
+
+👨‍💻 Author
 Deepthi C
 📍 India
-💼 Aspiring Full Stack Developer
 
-⭐ Project Highlight
+⭐ Support
+If you like this project, please ⭐ the repository to support it!
 
-This project demonstrates:
-
-Full Stack Development
-API integration
-Authentication system
-Real-world team workflow simulation
-📌 Note
-
-If you like this project, feel free to ⭐ the repository!
