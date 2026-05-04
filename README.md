@@ -114,6 +114,10 @@ frontend/index.html
 💬 Team chat feature
 📅 Deadline reminders
 
+## 🚀 Live Demo
+
+👉 Frontend: https://your-vercel-link.vercel.app  
+👉 Backend: https://team-task-manager-full-stack-project.onrender.com
 
 👨‍💻 Author
 Deepthi C
