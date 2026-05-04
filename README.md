@@ -116,7 +116,7 @@ frontend/index.html
 
 ## 🚀 Live Demo
 
-👉 Frontend: https://your-vercel-link.vercel.app  
+👉 Frontend: https://polite-blancmange-598e16.netlify.app/ 
 👉 Backend: https://team-task-manager-full-stack-project.onrender.com
 
 👨‍💻 Author
